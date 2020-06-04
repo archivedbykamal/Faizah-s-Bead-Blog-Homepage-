@@ -1,0 +1,98 @@
+.nav-area{
+     background-color: #2a787f;
+    
+}
+.logo {
+    float: left;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 21px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: -3px;
+}
+.jk {
+    position: relative;
+    float: left;
+}
+.nav-area:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav-area ul {
+    list-style: none;
+    margin: 0;
+}
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+.nav-area ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 18px;
+    display: block;
+     
+}
+.nav-area ul li:hover a{
+    background: #34495a;
+}
+.nav-area ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.nav-area ul li:hover > ul{
+    display: block;
+}
+.nav-area ul ul li:hover  a {
+    background: blue;
+    height: 100%;
+}
+.nav-area ul ul li{
+    position: relative;
+}
+.nav-area ul ul ul {
+    top: 0;
+    left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+    background: #34495a;
+    height: 100%;
+}
+.jumbotron-text{
+    font-size: 24px;
+}
+.my-jumbotron{
+    height: 500px;
+    padding-bottom: 70px;
+}
+.jumbotron-head{
+    padding-top: 40px;
+}
+
+.jumbotron-button{
+    width: 120px;
+    height: 42px;
+    padding-bottom: 40px;
+}
+.jumbotron-button2{
+   padding-bottom: 400px;
+}
+.footer{
+    background-color: #2a787f;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    height: 
+}
+.footer a{
+text-decoration: none;
+color: #fff;
+}
